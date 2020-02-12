@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215.8" height="88.22" viewBox="0 0 215.8 88.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-2 {
+        fill: #00bceb;
+      }
+    </style>
+    <radialGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" cx="115.66" cy="145.87" r="377.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a4caeb"/>
+      <stop offset="0.03" stop-color="#aacdec"/>
+      <stop offset="0.19" stop-color="#c9dff3"/>
+      <stop offset="0.37" stop-color="#e1edf8"/>
+      <stop offset="0.55" stop-color="#f2f7fc"/>
+      <stop offset="0.75" stop-color="#fcfdfe"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <title>small-clouds</title>
+  <g>
+    <path class="cls-1" d="M164.18,50.77a18.91,18.91,0,0,0,1.21-6.66h0a19.14,19.14,0,0,0-17.33-19,18.82,18.82,0,0,0,1-6h0A19.14,19.14,0,0,0,130,0H108.14A19.14,19.14,0,0,0,89.06,19.08h0a18.92,18.92,0,0,0,1,6H58.13A19.14,19.14,0,0,0,39,44.11h0a18.86,18.86,0,0,0,1,5.94H19.08A19.14,19.14,0,0,0,0,69.14H0A19.14,19.14,0,0,0,19.08,88.22H159a19.14,19.14,0,0,0,19.08-19.08h0A19.15,19.15,0,0,0,164.18,50.77Z"/>
+    <path class="cls-2" d="M205.81,51.9a13.46,13.46,0,0,0,.87-4.77h0a13.72,13.72,0,0,0-12.42-13.62,13.71,13.71,0,0,0,.7-4.31h0a13.71,13.71,0,0,0-13.67-13.68H165.65A13.71,13.71,0,0,0,152,29.2h0a13.33,13.33,0,0,0,.69,4.25H129.8a13.73,13.73,0,0,0-13.68,13.68h0a13.34,13.34,0,0,0,.69,4.26h-15A13.72,13.72,0,0,0,88.14,65.07h0a13.72,13.72,0,0,0,13.68,13.68h100.3A13.72,13.72,0,0,0,215.8,65.07h0A13.73,13.73,0,0,0,205.81,51.9Z"/>
+  </g>
+</svg>

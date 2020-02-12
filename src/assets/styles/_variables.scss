@@ -1,0 +1,70 @@
+@charset "utf-8";
+// fonts
+
+@font-face {
+  font-family: CiscoSansReg;
+  src: url('~@/assets/fonts/CiscoSansTTRegular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CiscoSansLight;
+  src: url('~@/assets/fonts/CiscoSansTTLight.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CiscoSansExtraLight;
+  src: url('~@/assets/fonts/CiscoSansTTExtraLight.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CiscoSansThin;
+  src: url('~@/assets/fonts/CiscoSansTTThin.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CiscoSansBold;
+  src: url('~@/assets/fonts/CiscoSansTTBold.woff') format('woff');
+  font-weight: normal;
+}
+
+$cisco-sans-reg: CiscoSansReg, Helvetica, Arial, sans-serif;
+$cisco-sans-light: CiscoSansLight, Helvetica, Arial, sans-serif;
+$cisco-sans-extra-light: CiscoSansExtraLight, Helvetica, Arial, sans-serif;
+$cisco-sans-thin: CiscoSansThin, Helvetica, Arial, sans-serif;
+$cisco-sans-bold: CiscoSansBold, Helvetica, Arial, sans-serif;
+
+// colors
+// $cisco-lt-blue: rgb(0, 188, 235);
+$cisco-lt-blue: #3EC7E6;
+$some-blue: rgb(13, 152, 190);
+$cisco-blue: rgb(0, 80, 115);
+$cisco-dk-blue: rgb(0, 64, 92);
+$cisco-dk-gray: rgb(102, 102, 102);
+$cisco-gray: rgb(230, 230, 230);
+$cisco-lt-gray: rgb(242, 242, 242);
+
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$titleText: #0D284D;
+$grey-body-text: #4D4C4C;
+
+
+// ViewPorts
+$mobile: 320px;
+$tablet: 768px;
+$small_desktop: 1024px;
+$large_desktop: 1280px;
+
+
+a:hover{
+  transition: all .5s ease;
+}
+
+
+
+
+
