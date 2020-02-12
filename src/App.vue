@@ -27,7 +27,7 @@
           From the outside, your biggest threat is:
         </div>
         <div slot="question" v-observe-visibility="ioHandler" data-index="2">
-                
+
 <div class="svg-mobile">
                 <DotPath />
                 </div>
@@ -54,28 +54,21 @@
 
         </div>
 
-
-
-
       </question-answer>
       <full-blade :background="'gray'">
         <h3>Modernize your present application environment and simplify your future.</h3>
         <p>Cisco can help you control any workload on any environment, including SAP, Oracle, Microsoft, big data apps, AI and machine learning, virtual desktops, enterprise communications, electronicmedical records, and more.</p>
         <pill-button link="https://www.cisco.com/c/en/us/solutions/data-center-virtualization/data-center-applications/index.html" color="dk-blue">Discover data center applications</pill-button>
       </full-blade>
-<Footer />
     </div>
   </div>
 </template>
 
 <script>
   import Hero from '@/components/Hero'
-  import AnimationCanvas from '@/components/AnimationCanvas'
   import QuestionAnswer from '@/components/QuestionAnswer'
   import FullBlade from '@/components/FullBlade'
   import PillButton from '@/components/PillButton'
-  import HyperLink from '@/components/HyperLink'
-  import Footer from '@/components/Footer'
   import CloudDots from '@/components/CloudDots'
   import DotPath from '@/components/DotPath'
   import BrainCog from '@/components/BrainCog'
@@ -115,16 +108,13 @@ question3: {
     },
     components: {
       Hero,
-      AnimationCanvas,
       QuestionAnswer,
       FullBlade,
-      HyperLink,
       PillButton,
-      Footer,
       CloudDots,
       DotPath,
       BrainCog
-    
+
     },
     computed: {
       tablet () {
@@ -263,9 +253,6 @@ question3: {
     mix-blend-mode: multiply;
   }
 
-
-
-
 .svg-mobile{
 
   display: none;
@@ -280,11 +267,7 @@ question3: {
           display: inline-block;
       }
 
-
 }
-
-
-
 
 .answer-blade{
 
@@ -301,9 +284,5 @@ question3: {
   .darker-color{
     color: #4D4C4C;
   }
-
-
-
- 
 
 </style>

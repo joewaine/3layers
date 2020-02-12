@@ -88,7 +88,6 @@
       padding-bottom: 60px;
     }
 
-
 .container{
   width: 66%;
   margin: 0 auto;

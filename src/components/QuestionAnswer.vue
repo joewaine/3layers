@@ -17,8 +17,6 @@
           Select one of the following:
         </li>
 
-
-
         <li v-for="(question, index) in questions" :key="index" class="question" @click="showCorrectAnswer(index)">
           <a>
             <svg viewBox="0 0 28 28" height="28" width="28">
@@ -34,8 +32,6 @@
           <div v-else class="question-text">
           {{question}}
           </div>
-
-
 
         </li>
       </ul>
@@ -75,8 +71,10 @@
 
         <div>
         <h2>Answer:</h2>
-        <div v-for="(answer, index) in answers" :key="index" class="answers" v-if="index === currentAnswer">
-        <div v-html="answer"></div>
+        <div v-for="(answer, index) in answers" :key="index" class="answers">
+          <div v-if="index === currentAnswer">
+          <div v-html="answer"></div>
+        </div>
         </div>
         </div>
         </div>
@@ -101,18 +99,14 @@
 
         <div>
         <h2>Answer:</h2>
-        <div v-for="(answer, index) in answers" :key="index" class="answers" v-if="index === currentAnswer">
+        <div v-for="(answer, index) in answers" :key="index" class="answers">
+
+          <div v-if="index === currentAnswer">
         <div v-html="answer"></div>
         </div>
         </div>
         </div>
-
-
-
-
-
-
-
+        </div>
 
         <a @click="showAnswer = false" class="close" v-if="colorFlip" style="color: #ffffff;">
 <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -133,8 +127,6 @@
         </g>
     </g>
 </svg>
-
-
 
           Back
         </a>
@@ -159,11 +151,8 @@
     </g>
 </svg>
 
-
-
           Back
         </a>
-
 
       </div>
     </transition>
@@ -174,8 +163,7 @@
 import CloudDots from '@/components/CloudDots'
 import DotPath from '@/components/DotPath'
 import BrainCog from '@/components/BrainCog'
-  import Icons from '@/components/Icons'
-  import { TweenMax, Power3 } from 'gsap/all'
+import { TweenMax, Power3 } from 'gsap/all'
 
   let plugins = [Power3]
 
@@ -188,7 +176,6 @@ import BrainCog from '@/components/BrainCog'
       }
     },
     components: {
-      Icons,
       CloudDots,
       DotPath,
       BrainCog
@@ -214,9 +201,9 @@ import BrainCog from '@/components/BrainCog'
       }
     },
     methods: {
-      showCorrectAnswer(i){
-        this.currentAnswer = i;
-        this.showAnswer = true;
+      showCorrectAnswer (i) {
+        this.currentAnswer = i
+        this.showAnswer = true
       },
       inView (isVisible) {
         if (isVisible) {
@@ -584,15 +571,12 @@ import BrainCog from '@/components/BrainCog'
                 display: inline-block;
             }
 
-
       }
-
 
       }
 
       top: 0;
       min-height: 100%;
-
 
       @media (max-width: $tablet) {
         height: auto;
@@ -617,7 +601,6 @@ import BrainCog from '@/components/BrainCog'
         right: 20px;
         right: 20px;
         position: absolute;
-
 
     }
   }
@@ -658,10 +641,6 @@ import BrainCog from '@/components/BrainCog'
     }
   }
 
-
-
-
-
 .answer-blade a,
 .answer-blade a[href],
 .answer-blade a[href]:visited{
@@ -678,25 +657,17 @@ color: #007493;
     }
 }
 
-
-
 .answer-list .answers a{
   line-height: 1.8em;
 
-
   transition: all .5s ease;
 
-
-
 }
-
-
 
 .question-blade .answer-blade{
 
       @media (max-width: $tablet) {
     align-items: initial;
-
 
     padding: 56px 20px 40px 20px;
 
@@ -719,8 +690,6 @@ li.question a{
     }
   }
 
-
-
 .answer-list{
 
 &.darkened-text{
@@ -730,10 +699,8 @@ color: #403C3D;
 }
 }
 
-
 .darken-text-color{
  color: #1B1B1B;
 }
-
 
 </style>

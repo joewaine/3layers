@@ -1,9 +1,9 @@
 <template>
 <div>
 <!-- <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
-    
+
 <svg width="100%" height="100%" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
+
     <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
     <title>Top-3_Icons_Optimizing-Icon-300x300.svg</title>
     <desc>Created with Sketch.</desc>
@@ -48,14 +48,11 @@
     </g>
 </svg>
 
-
 </div>
 </template>
-
 
 <script>
 export default{
 
 }
 </script>
-

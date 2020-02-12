@@ -25,7 +25,6 @@ Application modernization is growing in complexity. And with businesses expected
 
 <script>
   import { TweenMax, TimelineMax, Elastic, Power3 } from 'gsap/all'
-  import HeroCanvas from '@/components/HeroCanvas.vue'
   // import Icons from '@/components/Icons.vue'
 
   let plugins = [Elastic, Power3]
@@ -51,10 +50,6 @@ Application modernization is growing in complexity. And with businesses expected
       mobile () {
         return this.$breakpoints.isMobile()
       }
-    },
-    components: {
-      // Icons,
-      HeroCanvas
     },
     mounted () {
       this.$nextTick(() => {
@@ -122,7 +117,6 @@ Application modernization is growing in complexity. And with businesses expected
       max-width: 50%;
     }
 
-
     @media (max-width: $tablet) {
       max-width: 100%;
     }
@@ -151,7 +145,7 @@ Application modernization is growing in complexity. And with businesses expected
       font-weight: bold;
       line-height: 27px;
       margin-top: 24px;
-      
+
     }
   }
 
@@ -201,11 +195,6 @@ Application modernization is growing in complexity. And with businesses expected
     }
   }
 
-
-
-
-
-
 .servers-image{
     @media (max-width: $large_desktop) {
         // display: none;
@@ -219,11 +208,3 @@ Application modernization is growing in complexity. And with businesses expected
 }
 
 </style>
-
-
-
-
-
-
-
-

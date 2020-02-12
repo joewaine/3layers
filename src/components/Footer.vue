@@ -20,7 +20,7 @@
             </li>
             <li>
               <a href="">Privacy Statement</a>
-            </li>          
+            </li>
             <li>
               <a href="">Cookies</a>
             </li>
@@ -33,11 +33,8 @@
 </div>
 </template>
 
-
-
 <script>
   export default {
-
 
   }
 </script>
