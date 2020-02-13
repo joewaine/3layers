@@ -1,7 +1,6 @@
 <template>
 <div>
 <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
     <title>chevron</title>
     <desc>Created with Sketch.</desc>
     <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

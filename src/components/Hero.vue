@@ -25,7 +25,6 @@ Application modernization is growing in complexity. And with businesses expected
 
 <script>
   import { TweenMax, TimelineMax, Elastic, Power3 } from 'gsap/all'
-  // import Icons from '@/components/Icons.vue'
 
   let plugins = [Elastic, Power3]
 
@@ -159,7 +158,6 @@ Application modernization is growing in complexity. And with businesses expected
       line-height: 1.2;
       font-weight: bold;
     }
-    // margin-bottom: 32px;
   }
 
   #top-clouds {
@@ -197,8 +195,6 @@ Application modernization is growing in complexity. And with businesses expected
 
 .servers-image{
     @media (max-width: $large_desktop) {
-        // display: none;
-
         float: right;
         position: absolute;
         width: 50%;

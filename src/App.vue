@@ -72,6 +72,7 @@
   import CloudDots from '@/components/CloudDots'
   import DotPath from '@/components/DotPath'
   import BrainCog from '@/components/BrainCog'
+
   import { TimelineMax, Power3, AttrPlugin, CSSPlugin } from 'gsap/all'
 
   let plugins = [Power3, AttrPlugin, CSSPlugin]
@@ -87,7 +88,7 @@
         scroll: 0,
         answers: {
           question1: {
-            answer1: '<p>Optimizing applications across all environments will ensure that your app users have the best experience possible, but this can be a complex undertaking.</p><p>Optimization tools reduce this complexity by providing actionable intelligence and the option for automated action.</p><a href="https://www.cisco.com/c/en/us/products/servers-unified-computing/workload-optimization-manager/index.html" target="_blank">Discover workload optimization</a>'
+            answer1: '<p>Optimizing applications across all environments will ensure that your app users have the best experience possible, but this can be a complex undertaking.</p><p>Optimization tools reduce this complexity by providing actionable intelligence and the option for automated action.</p><a href="https://www.cisco.com/c/en/us/products/servers-unified-computing/workload-optimization-manager/index.html" target="_blank">Discover workload optimization <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0175A2" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a>'
           },
           question2: {
 answer1: '<p>Migrating to SAP apps or the HANA database without disruption is critical to keeping your business running smoothly. That’s why Cisco’s application performance tools are specifically designed to reduce and prevent downtime risks.</p>',
@@ -96,12 +97,12 @@ answer3: '<p>Migrating to Microsoft SQL without disruption is critical to keepin
 answer4: '<p>Migrating to any database or application without disruption is critical to keeping your businessrunning smoothly. That’s why Cisco’s application performance tools are specifically designed to reduce and prevent downtime risks.</p>',
 answer5: '<p>When you have migrations that come up in the future, keep in mind that migrating to any database or application without disruption is critical to keeping your business running smoothly. That’s why Cisco’s application performance tools are specifically designed to reduce and prevent downtime risks.</p>',
 underlist: '<ul><li>Cisco Tetration provides real-time data to view connections between enterprise data and applications.</li><li>AppDynamics monitors, correlates, analyzes, and acts on application data to understand performance and the user experience.</li></ul>',
-links: '<a class="dark-blue-link" href="https://www.cisco.com/c/en/us/products/security/tetration/index.html" target="_blank">Learn about Tetration ></a><br /><a class="dark-blue-link" href="https://www.appdynamics.com/lp/gartner-magic-quadrant-apm/?utm_source=adwords&utm_medium=ppc&utm_campaign=new.search.apm.exact&utm_content=new.search.apm.exact&utm_term=apm%20software%20vendors&utm_budget=digital&gclid=EAIaIQobChMI5Ni5urTv5gIVhK_sCh1zpgc4EAAYASAAEgIHC_D_BwE" target="_blank">View AppDynamics Gartner MQ Report ></a>'
+links: '<a class="dark-blue-link" href="https://www.cisco.com/c/en/us/products/security/tetration/index.html" target="_blank">Learn about Tetration <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0D274D" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a><br /><a class="dark-blue-link" href="https://www.appdynamics.com/lp/gartner-magic-quadrant-apm/?utm_source=adwords&utm_medium=ppc&utm_campaign=new.search.apm.exact&utm_content=new.search.apm.exact&utm_term=apm%20software%20vendors&utm_budget=digital&gclid=EAIaIQobChMI5Ni5urTv5gIVhK_sCh1zpgc4EAAYASAAEgIHC_D_BwE" target="_blank">View AppDynamics Gartner MQ Report <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0D274D" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a>'
 },
 question3: {
-  answer1: '<p>Perfect. Cisco can make it even better.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning ></a>',
-  answer2: '<p>Great. Cisco can help you do even more with AI and machine learning, because we understand that data is the most prevalent challenge when developing these types of applications.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning ></a>',
-  answer3: '<p>Virtually every industry is benefiting from advancements in AI and machine learning. You’d be surprised how Cisco can help.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning ></a>'
+  answer1: '<p>Perfect. Cisco can make it even better.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0175A2" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a>',
+  answer2: '<p>Great. Cisco can help you do even more with AI and machine learning, because we understand that data is the most prevalent challenge when developing these types of applications.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0175A2" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a>',
+  answer3: '<p>Virtually every industry is benefiting from advancements in AI and machine learning. You’d be surprised how Cisco can help.</p><p>With a unified approach across the complete lifecycle of AI data, Cisco can help demystify the AI stack for early adopters, as well as provide the hardware and integrations to go from machine learning to deep learning.</p><a href="https://www.cisco.com/c/en/us/solutions/data-center/artificial-intelligence-machine-learning/index.html" target="_blank">Discover AI and Machine Learning <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(180deg);"><title>chevron</title><desc>Created with Sketch.</desc><g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)"><g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)"><g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0175A2" stroke-linecap="round" stroke-width="3"><g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)"><polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline></g></g></g></g></g></svg></a>'
 }
         }
       }
@@ -114,7 +115,6 @@ question3: {
       CloudDots,
       DotPath,
       BrainCog
-
     },
     computed: {
       tablet () {
@@ -270,12 +270,35 @@ question3: {
 }
 
 .answer-blade{
-
+.answers{
   a.dark-blue-link,
   a[href].dark-blue-link,
   a.dark-blue-link[href]:visited{
   color: #0D274D;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+
+  &:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #0D274D;
   }
+  }
+
+  a,
+  a[href],
+  a[href]:visited{
+
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+
+  &:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #007493;
+
+  }
+  }
+
+}
 
 }
 

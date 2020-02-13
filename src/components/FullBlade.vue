@@ -64,10 +64,6 @@
     }
 
     h3 {
-      // color: $cisco-lt-blue;
-      // @media (min-width: $tablet) {
-      //   color: $white
-      // }
       color: $white
     }
 

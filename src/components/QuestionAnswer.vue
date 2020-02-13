@@ -18,6 +18,7 @@
         </li>
 
         <li v-for="(question, index) in questions" :key="index" class="question" @click="showCorrectAnswer(index)">
+          <div class="question-container">
           <a>
             <svg viewBox="0 0 28 28" height="28" width="28">
               <g transform="translate(1, 0)">
@@ -32,7 +33,7 @@
           <div v-else class="question-text">
           {{question}}
           </div>
-
+          </div>
         </li>
       </ul>
     </div>
@@ -73,7 +74,7 @@
         <h2>Answer:</h2>
         <div v-for="(answer, index) in answers" :key="index" class="answers">
           <div v-if="index === currentAnswer">
-          <div v-html="answer"></div>
+              <div v-html="answer"></div>
         </div>
         </div>
         </div>
@@ -100,7 +101,6 @@
         <div>
         <h2>Answer:</h2>
         <div v-for="(answer, index) in answers" :key="index" class="answers">
-
           <div v-if="index === currentAnswer">
         <div v-html="answer"></div>
         </div>
@@ -108,16 +108,13 @@
         </div>
         </div>
 
-        <a @click="showAnswer = false" class="close" v-if="colorFlip" style="color: #ffffff;">
+        <a @click="showAnswer = false" class="close white" v-if="colorFlip" style="color: #ffffff;">
 <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
     <title>chevron</title>
     <desc>Created with Sketch.</desc>
     <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)">
-            <!-- <rect fill="transparent" x="0" y="0" width="480" height="2900"></rect> -->
             <g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)">
-                <!-- <rect id="Background-Panel" fill="#F2F2F2" x="0" y="0.00181488203" width="480" height="550"></rect> -->
                 <g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#ffffff" stroke-linecap="round" stroke-width="3">
                     <g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)">
                         <polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline>
@@ -133,14 +130,11 @@
 
         <a @click="showAnswer = false" class="close" v-else>
 <svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
     <title>chevron</title>
     <desc>Created with Sketch.</desc>
     <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Top-3-LP-Answers" transform="translate(-369.000000, -2307.000000)">
-            <!-- <rect fill="transparent" x="0" y="0" width="480" height="2900"></rect> -->
             <g id="Blade-4_Powering-Answer" transform="translate(0.000000, 1767.000000)">
-                <!-- <rect id="Background-Panel" fill="#F2F2F2" x="0" y="0.00181488203" width="480" height="550"></rect> -->
                 <g id="Back_Button" transform="translate(371.000000, 538.000000)" stroke="#0175A2" stroke-linecap="round" stroke-width="3">
                     <g id="Icon/chevron/indigo" transform="translate(3.000000, 8.500000) rotate(-180.000000) translate(-3.000000, -8.500000) translate(0.000000, 3.000000)">
                         <polyline id="chevron" transform="translate(3.000000, 5.500000) rotate(-90.000000) translate(-3.000000, -5.500000) " points="-2 3 3 8 8 3"></polyline>
@@ -249,7 +243,6 @@ import { TweenMax, Power3 } from 'gsap/all'
     position: relative;
     overflow: auto;
     display: flex;
-    // align-items: center;
     align-items: top;
     justify-content: flex-start;
     flex-direction: column;
@@ -381,7 +374,6 @@ import { TweenMax, Power3 } from 'gsap/all'
     h2 {
       font-family: $cisco-sans-extra-light;
       margin-bottom: 15px;
-      // margin-left: 80px;
       margin-left: 0;
       font-size: 36px;
       line-height: 1;
@@ -416,9 +408,9 @@ import { TweenMax, Power3 } from 'gsap/all'
           line-height: 24px;
           margin-bottom: 20px;
           @media (min-width: $tablet) {
-            width: 80%;
+            width: 90%;
           }
-          @media (min-width: $small_desktop) {
+          @media (min-width: $large_desktop) {
             width: 70%;
           }
           svg {
@@ -439,7 +431,6 @@ import { TweenMax, Power3 } from 'gsap/all'
       }
       &:hover {
         .hide {
-          // opacity: 0.5;
           opacity: 0.75;
         }
       }
@@ -535,7 +526,6 @@ import { TweenMax, Power3 } from 'gsap/all'
 
       }
       .answer-list {
-        // padding: 20px;
         h4.answer-title {
           color: $cisco-lt-blue;
           margin-bottom: 20px;
@@ -559,11 +549,11 @@ import { TweenMax, Power3 } from 'gsap/all'
 
       .svg-mobile{
 
-        display: none;
-        width: 80px;
-        height: 80px;
-        float: left;
-    margin-top: -16px;
+            display: none;
+            width: 80px;
+            height: 80px;
+            float: left;
+            margin-top: -16px;
             @media (max-width: $tablet) {
                 display: inline-block;
             }
@@ -586,12 +576,13 @@ import { TweenMax, Power3 } from 'gsap/all'
     }
 
     .close {
+
       cursor: pointer;
       &:hover {
         text-decoration: none;
       }
       svg {
-        margin-right: 10px;
+        // margin-right: 10px;
       }
       .blue & {
         color: $white;
@@ -601,13 +592,25 @@ import { TweenMax, Power3 } from 'gsap/all'
         right: 20px;
         right: 20px;
         position: absolute;
+        border-bottom: 2px solid transparent;
+
+      &:hover {
+        text-decoration: none;
+        border-bottom: 2px solid#007493;
+      }
+
+      &.white{
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid#ffffff;
+        }
+      }
 
     }
   }
 .question{
 
     background: rgba(77, 76, 76, 0.05);
-    // padding: 12px 11px 9px;
     padding: 15px 14px 8px;
     border-radius: 28px;
     position: relative;
@@ -632,12 +635,6 @@ import { TweenMax, Power3 } from 'gsap/all'
     }
     &:hover{
     background: rgba(77, 76, 76, 0.075);
-    }
-    @media (max-width: $large_desktop) {
-      padding: 30px 14px 16px;
-    }
-    @media (max-width: $small_desktop) {
-      padding: 16px 14px 13px;
     }
   }
 
@@ -684,7 +681,6 @@ color: #007493;
 li.question a{
     @media (max-width: $small_desktop) {
       position: absolute;
-      // top: 50%;
       top: calc(50% + 3px);
       transform: translateY(-50%);
     }
@@ -701,6 +697,10 @@ color: #403C3D;
 
 .darken-text-color{
  color: #1B1B1B;
+}
+
+.question-container{
+  width: 100%;
 }
 
 </style>

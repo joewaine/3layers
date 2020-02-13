@@ -209,7 +209,6 @@
   }
 
   #animationContainer {
-    /*background-color: rgba(2, 76, 110, 1.00);*/
   }
 
   #domOverlayContainer {
