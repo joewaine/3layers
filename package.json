@@ -11,7 +11,7 @@
   "dependencies": {
     "eslint-loader": "^2.1.1",
     "exports-loader": "^0.7.0",
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "imports-loader": "^0.8.0",
     "latest-createjs": "^1.0.24",
     "vue": "^2.5.17",
